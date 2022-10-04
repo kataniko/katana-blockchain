@@ -9,20 +9,19 @@ const Home: NextPage = () => {
         <title>Katana-Blockchain</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      ~
-      <header></header>
+      
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center bg-slate-900">
         <h1 className="text-6xl font-bold text-white">
-          Bem-vindo raios ta foda ao{' '}
+          Welcome to{' '}
           <a className="text-red-600 " href="https://nextjs.org">
-            Katana-Blockchain
+            Katana
           </a>
         </h1>
 
         <p className="mt-3 text-2xl text-red-600">
-          A melhor WebApp de cripto{' '}
+          The best crypto{' '}
           <code className="rounded-md bg-red-600 p-3 text-slate-900 font-mono text-lg">
-            katana-blockchain
+            WebApp 3.0
           </code>
         </p>
 
