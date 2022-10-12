@@ -9,7 +9,9 @@ const Home: NextPage = () => {
         <title>Katana-Blockchain</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
+      <header>
+        
+      </header>
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center bg-slate-900">
         <h1 className="text-6xl font-bold text-white">
           Welcome to{' '}
@@ -69,17 +71,6 @@ const Home: NextPage = () => {
           </a>
         </div>
       </main>
-      <footer className="flex h-24 w-full items-center justify-center border-t bg-slate-900">
-        <a
-          className="flex items-center justify-center gap-2 text-red-600"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          feito por{' '}
-          <Image src="/unknown.svg" alt="Katana logo" width={72} height={16} />
-        </a>
-      </footer>
     </div>
   )
 }
