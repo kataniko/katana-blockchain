@@ -54,7 +54,7 @@ const Home: NextPage = () => {
           >
             <h3 className="text-2xl font-bold ">BoneZlel &rarr;</h3>
             <p className="mt-4 text-xl text-white">
-              BRAZILLLLLLLL
+              Sou o marco e sou programador , não gosto de pessoas de cor!
             </p>
           </a>
 
@@ -64,7 +64,7 @@ const Home: NextPage = () => {
           >
             <h3 className="text-2xl font-bold ">Katotas &rarr;</h3>
             <p className="mt-4 text-xl text-white">
-              Bruhh
+              Broda
             </p>
           </a>
         </div>
