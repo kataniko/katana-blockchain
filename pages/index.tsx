@@ -13,7 +13,7 @@ const Home: NextPage = () => {
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center bg-slate-900">
         <h1 className="text-6xl font-bold text-white">
           Welcome to{' '}
-          <a className="text-red-600 " href="https://nextjs.org">
+          <a className="text-red-600 " href="https://youtu.be/dQw4w9WgXcQ">
             Katana
           </a>
         </h1>
