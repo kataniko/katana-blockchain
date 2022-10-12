@@ -9,7 +9,7 @@ const Home: NextPage = () => {
         <title>Katana-Blockchain</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
+      <header>
         <section><div className="styles-module--container--NnRM9">
           <a href="/" className="styles-module--brandLink--3YpyT">
             <div className="styles-module--container--1b4Dx styles-module--brand--26gap">
@@ -91,7 +91,7 @@ const Home: NextPage = () => {
           </button>
         </div>
         </section>
-      
+      </header>
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center bg-slate-900">
         <h1 className="text-6xl font-bold text-white">
           Welcome to{' '}
