@@ -32,8 +32,7 @@ const Home: NextPage = () => {
           >
             <h3 className="text-2xl font-bold ">niko &rarr;</h3>
             <p className="mt-4 text-xl text-white">
-              Qual a maior causa de emigração na etiópia?
-              O vento.
+              Java dos Scripts
             </p>
           </a>
 
@@ -43,7 +42,7 @@ const Home: NextPage = () => {
           >
             <h3 className="text-2xl font-bold">Elkidz &rarr;</h3>
             <p className="mt-4 text-xl text-white">
-
+                Java Master
             </p>
           </a>
 
@@ -53,7 +52,7 @@ const Home: NextPage = () => {
           >
             <h3 className="text-2xl font-bold ">BoneZlel &rarr;</h3>
             <p className="mt-4 text-xl text-white">
-              Wide Mordekaiser
+              Python sem dentes
             </p>
           </a>
 
@@ -63,7 +62,7 @@ const Home: NextPage = () => {
           >
             <h3 className="text-2xl font-bold ">Katotas &rarr;</h3>
             <p className="mt-4 text-xl text-white">
-              Broda
+              HTML programmer xD
             </p>
           </a>
         </div>
