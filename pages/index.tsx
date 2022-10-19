@@ -1,15 +1,29 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import { motion } from "framer-motion"
 
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2 bg-slate-900">
+    <motion.div className="flex min-h-screen flex-col items-center justify-center py-2 bg-slate-900"
+    initial={{x : -500,
+    opacity : 0,
+    scale : 0.5,
+    }}
+    animate={{ x : 0 ,
+    opacity: 1,
+  scale : 1}}
+    transition={{  }}
+    >
+
+
       <Head>
         <title>Katana-Blockchain</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
+      <header>
+        sdfsdf
+      </header>
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center bg-slate-900">
         <h1 className="text-6xl font-bold text-white">
           Welcome to{' '}
@@ -67,7 +81,7 @@ const Home: NextPage = () => {
           </a>
         </div>
       </main>
-    </div>
+    </motion.div>
   )
 }
 
