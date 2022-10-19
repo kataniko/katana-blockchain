@@ -13,14 +13,26 @@ const Home: NextPage = () => {
     animate={{ x : 0 ,
     opacity: 1,
   scale : 1}}
-    transition={{  }}
+    transition={{duration : 1.5  }}
     >
 
-
-      <Head>
-        <title>Katana-Blockchain</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+  <motion.div initial={{z : -500,
+        opacity : 0,
+        scale : 0.5,
+      }}
+    
+      animate={{ x : 0 ,
+      opacity: 1,
+      scale : 1}}
+      
+      transition={{
+        duration : 2 }}>
+        
+        <Head>
+          <title>Katana-Blockchain</title>
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
+    </motion.div>
       <header>
         sdfsdf
       </header>
