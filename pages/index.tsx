@@ -25,20 +25,20 @@ const Home: NextPage = () => {
         <h1 className="text-6xl font-bold text-white">
           Welcome to{' '}
           <motion.a className="text-red-600 " href="https://youtu.be/dQw4w9WgXcQ"
-          initial={{z : -500,opacity : 0, scale : 0.5,}} animate={{ x : 0 ,opacity: 1,scale : 1}} transition={{duration : 2 }}>
+          initial={{z : -1000 ,opacity : 0, scale : 0.5,}} animate={{ x : 0 ,opacity: 1,scale : 1}} transition={{duration : 2.5 }}>
             Katana
           </motion.a>
         </h1>
 
-        <motion.p className="mt-3 text-2xl text-red-600"
-        initial={{z :-500 ,x : -500,opacity : 0, scale : 0.5,}} animate={{ x : 0 ,opacity: 1,scale : 1}} transition={{duration : 2 }}>
-          <div>
+        <p className="mt-3 text-2xl text-red-600">
+          <motion.div initial={{x : +500 ,z : -500,opacity : 0, scale : 0.5,}} animate={{ x : 0 ,opacity: 1,scale : 1}} transition={{duration : 2 }}>
              The best crypto{' '}
-          </div>
-          <motion.code className="rounded-md bg-red-600 p-3 text-slate-900 font-mono text-lg">
+          </motion.div>
+          <motion.code className="rounded-md bg-red-600 p-3 text-slate-900 font-mono text-lg"
+          initial={{z : -500,opacity : 0, scale : 0.5,}} animate={{ x : 0 ,opacity: 1,scale : 1}} transition={{duration : 2 }}>
             WebApp 3.0
           </motion.code>
-        </motion.p>
+        </p>
 
         <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
           <motion.a
