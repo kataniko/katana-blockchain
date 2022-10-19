@@ -6,13 +6,13 @@ import { motion } from "framer-motion"
 const Home: NextPage = () => {
   return (
     <motion.div className="flex min-h-screen flex-col items-center justify-center py-2 bg-slate-900"
-     initial={{x : -500,
+     initial={{x : -200,
      opacity : 0,
      scale : 0.5,}}
      animate={{ x : 0 ,
      opacity: 1,
      scale : 1}}
-     transition={{duration : 1.5  }}>
+     transition={{duration : 0.5  }}>
 
     
         <Head>
@@ -31,18 +31,20 @@ const Home: NextPage = () => {
         </h1>
 
         <motion.p className="mt-3 text-2xl text-red-600"
-        initial={{x : -500,opacity : 0, scale : 0.5,}} animate={{ x : 0 ,opacity: 1,scale : 1}} transition={{duration : 2 }}>
-          The best crypto{' '}
-          <code className="rounded-md bg-red-600 p-3 text-slate-900 font-mono text-lg">
+        initial={{z :-500 ,x : -500,opacity : 0, scale : 0.5,}} animate={{ x : 0 ,opacity: 1,scale : 1}} transition={{duration : 2 }}>
+          <div>
+             The best crypto{' '}
+          </div>
+          <motion.code className="rounded-md bg-red-600 p-3 text-slate-900 font-mono text-lg">
             WebApp 3.0
-          </code>
+          </motion.code>
         </motion.p>
 
         <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
           <motion.a
             href="https://youtu.be/N2H8MRdGqzs"
             className="mt-6 w-96 rounded-xl border border-red-600 text-red-600 p-6 text-left hover:text-white focus:text-white"
-            initial={{z : -500,opacity : 0, scale : 0.5,}} animate={{ x : 0 ,opacity: 1,scale : 1}} transition={{duration : 2 }}
+            initial={{x : -500,z : -500,opacity : 0, scale : 0.5,}} animate={{ x : 0 ,opacity: 1,scale : 1}} transition={{duration : 2 }}
           >
             <h3 className="text-2xl font-bold ">niko &rarr;</h3>
             <p className="mt-4 text-xl text-white">
@@ -53,7 +55,7 @@ const Home: NextPage = () => {
           <motion.a
             href="https://youtu.be/G-Wn48geCJ8"
             className="mt-6 w-96 rounded-xl border border-red-600 text-red-600 p-6 text-left hover:text-white focus:text-white"
-            initial={{x: +500,opacity : 0, scale : 0.5,}} animate={{ x : 0 ,opacity: 1,scale : 1}} transition={{duration : 2 }}
+            initial={{z: -500,x: +500,opacity : 0, scale : 0.5,}} animate={{ x : 0 ,opacity: 1,scale : 1}} transition={{duration : 2 }}
           >
             <h3 className="text-2xl font-bold">Elkidz &rarr;</h3>
             <p className="mt-4 text-xl text-white">
@@ -64,7 +66,7 @@ const Home: NextPage = () => {
           <motion.a
             href="https://youtu.be/UrbD0F91yVk"
             className="mt-6 w-96 rounded-xl border border-red-600 p-6 text-red-600 text-left hover:text-white focus:text-white"
-            initial={{x : -500,opacity : 0, scale : 0.5,}} animate={{ x : 0 ,opacity: 1,scale : 1}} transition={{duration : 2 }}
+            initial={{z: -500,x : -500,opacity : 0, scale : 0.5,}} animate={{ x : 0 ,opacity: 1,scale : 1}} transition={{duration : 2 }}
           >
             <h3 className="text-2xl font-bold ">BoneZlel &rarr;</h3>
             <p className="mt-4 text-xl text-white">
@@ -75,7 +77,7 @@ const Home: NextPage = () => {
           <motion.a
             href="https://youtu.be/CSwNHs-mgCc"
             className="mt-6 w-96 rounded-xl border border-red-600 p-6 text-red-600 text-left hover:text-white focus:text-white"
-            initial={{x : +500,opacity : 0, scale : 0.5,}} animate={{ x : 0 ,opacity: 1,scale : 1}} transition={{duration : 2 }}
+            initial={{z : -500 , x : +500,opacity : 0, scale : 0.5,}} animate={{ x : 0 ,opacity: 1,scale : 1}} transition={{duration : 2 }}
           >
             <h3 className="text-2xl font-bold ">Katotas &rarr;</h3>
             <p className="mt-4 text-xl text-white">
