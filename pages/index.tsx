@@ -34,11 +34,11 @@ const Home: NextPage = () => {
         <p className="mt-3 text-2xl text-red-600">
           <motion.div initial={{x : +500 ,z : -500,opacity : 0, scale : 0.5,}} animate={{ x : 0 ,opacity: 1,scale : 1}} transition={{duration : 2 }}>
              The best crypto{' '}
-          </motion.div>
           <motion.code className="rounded-md bg-red-600 p-3 text-slate-900 font-mono text-lg"
           initial={{z : -500,opacity : 0, scale : 0.5,}} animate={{ x : 0 ,opacity: 1,scale : 1}} transition={{duration : 2 }}>
             WebApp 3.0
           </motion.code>
+          </motion.div>
         </p>
 
         <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
