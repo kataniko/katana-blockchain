@@ -22,13 +22,14 @@ const Home: NextPage = () => {
 
      <motion.main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center bg-slate-900" 
      >
-        <h1 className="text-6xl font-bold text-white">
+        <motion.h1 className="text-6xl font-bold text-white"
+        initial={{z : -500,opacity : 0, scale : 0.5,}} animate={{ x : 0 ,opacity: 1,scale : 1}} transition={{duration : 2 }}>
           Welcome to{' '}
           <motion.a className="text-red-600 " href="https://youtu.be/dQw4w9WgXcQ"
           initial={{z : -1000 ,opacity : 0, scale : 0.5,}} animate={{ x : 0 ,opacity: 1,scale : 1}} transition={{duration : 2.5 }}>
             Katana
           </motion.a>
-        </h1>
+        </motion.h1>
 
         <p className="mt-3 text-2xl text-red-600">
           <motion.div initial={{x : +500 ,z : -500,opacity : 0, scale : 0.5,}} animate={{ x : 0 ,opacity: 1,scale : 1}} transition={{duration : 2 }}>
