@@ -5,16 +5,8 @@ import { motion } from "framer-motion"
 
 const Home: NextPage = () => {
   return (
-    <motion.div className="flex min-h-screen flex-col items-center justify-center py-2 bg-slate-900"
-     initial={{z : -500,
-     opacity : 0,
-     scale : 0.5,}}
-     animate={{ x : 0 ,
-     opacity: 1,
-     scale : 1}}
-     transition={{duration : 1  }}>
-
-    
+    <motion.div className="flex min-h-screen flex-col items-center justify-center py-2 bg-slate-900">
+        
         <Head>
           <title>Katana-Blockchain</title>
           <link rel="icon" href="/favicon.ico" />
