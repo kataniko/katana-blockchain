@@ -1,4 +1,7 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
-  reactStrictMode: true,
+  images: {
+    domains: ['staticdelivery.nexusmods.com', 
+    'blogger.googleusercontent.com'],
+  },
 }
