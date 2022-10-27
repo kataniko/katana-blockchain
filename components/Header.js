@@ -12,7 +12,7 @@ const Header = () => {
     return (
         <div className={styles.header}>
             <Image
-                src='https://images-platform.99static.com/P-fChD2QG59Etx7UQrtlcmlp1rg=/89x63:1678x1652/500x500/top/smart/99designs-contests-attachments/89/89728/attachment_89728569'
+                src='https://s2.coinmarketcap.com/static/cloud/img/coinmarketcap_white1_svg'
                 alt='logo'
                 width={220}
                 height={220}
