@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import { motion } from "framer-motion"
+import Header from '../components/Header'
 
 const Home: NextPage = () => {
   return (
@@ -11,6 +12,9 @@ const Home: NextPage = () => {
         <title>Katana-Blockchain</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <Header />
+
 
       <motion.main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center bg-slate-900"
       >

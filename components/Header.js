@@ -17,6 +17,37 @@ const Header = () => {
                 width={220}
                 height={220}
             />
+
+            <div className={styles.headerWrapper}>
+                <div className={styles.nav}>
+                   
+                    <div className={StyleSheet.navItem}>
+                        <div className={styles.navLink}>
+                        </div>
+
+                    </div>
+
+                    <div className={StyleSheet.navItem}>
+                        <div className={styles.navLink}>
+                        </div>
+
+                    </div>
+
+
+                    <div className={StyleSheet.navItem}>
+                        <div className={styles.navLink}>
+                        </div>
+
+                    </div>
+
+                
+                
+                
+                
+                </div>
+
+            </div>
+
         </div>
 
     )

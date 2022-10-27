@@ -4,3 +4,4 @@ module.exports = {
     domains: ['s2.coinmarketcap.com']
   },
 }
+
