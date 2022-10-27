@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
-  Images: {
-    domains: ['s2.coinmarketcap.com']
+  images: {
+    domains: ['staticdelivery.nexusmods.com', 
+    'blogger.googleusercontent.com'],
   },
 }
 
