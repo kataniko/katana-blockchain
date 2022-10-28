@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Header from '../components/Header'
+import Teta from '../components/Teta'
 
 const Home: NextPage = () => {
   return (
@@ -9,7 +10,7 @@ const Home: NextPage = () => {
       <div className='mt-10'/>
       {/* trends */}
       <div className='mt-20'/>
-      {/* table */}
+      <Teta />
     </div>
   )
 }

@@ -14,7 +14,7 @@ const styles = {
 
     badge : 'animate-ping rounded-full bg-red-700 h-1 w-1 absolute bottom-5 right-0 top-1 ring-4 ring-red-900 ',
 
-    inputContainer: 'flex items-center justify-center p-2 rounded-full bg-gray-300',
+    inputContainer: 'shadow-lg  shadow-red-600/50 flex items-center justify-center p-2 rounded-full bg-gray-300',
 
     input : 'bg-transparent outline-none text-red-800 w-70 ml-3',
 }
