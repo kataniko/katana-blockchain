@@ -6,6 +6,7 @@ export default function Home() {
     <div className='min-h-screen'>
       
       <Header />
+      asdfsdf
      
       {/* <SwapCryptoModal /> */}
       <div className='mt-10' />
