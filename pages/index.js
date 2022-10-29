@@ -1,7 +1,7 @@
-import type { NextPage } from 'next'
+
 import Header from '../components/Header'
 
-const Home: NextPage = () => {
+export default function Home() {
   return (
     
     <div className='min-h-screen bg-[#17171A]'>
@@ -14,4 +14,3 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home

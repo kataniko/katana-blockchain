@@ -35,7 +35,7 @@ const Header = () => {
                     <div className={styles.navItem}>
                         <div className={styles.navLink}>
                             <div className='antialiased hover:subpixel-antialiased font-serif  '>
-                             Assetssssss
+                             Assets
                             </div>
                             </div>    
                         <div className={styles.badge} />
